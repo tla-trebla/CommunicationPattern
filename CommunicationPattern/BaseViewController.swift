@@ -22,7 +22,12 @@ class BaseViewController: UIViewController {
     // MARK: - Actions
     
     @IBAction func selectAnimalButtonClicked(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let animalVC = storyboard.instantiateViewController(withIdentifier: "AnimalViewController")
         
+        animalVC.modalPresentationStyle = .fullScreen
+        
+        show(animalVC, sender: self)
     }
     
 }
