@@ -12,11 +12,12 @@ protocol AnimalSelectionDelegate {
 }
 
 class AnimalViewController: UIViewController {
+    
+    // MARK: - Variables
+    var selectionDelegate: AnimalSelectionDelegate!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
     
     // MARK: - Actions
