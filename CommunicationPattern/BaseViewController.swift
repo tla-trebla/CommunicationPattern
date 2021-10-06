@@ -9,11 +9,17 @@ import UIKit
 
 class BaseViewController: UIViewController {
 
+    @IBOutlet weak var animalImageView: UIImageView!
+    @IBOutlet weak var nameImageView: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func selectAnimalButtonClicked(_ sender: Any) {
+    }
+    
 }
 
