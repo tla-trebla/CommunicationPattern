@@ -7,6 +7,10 @@
 
 import UIKit
 
+protocol AnimalSelectionDelegate {
+    func didTapAnimalSelection(image: UIImage, name: String, color: UIColor)
+}
+
 class AnimalViewController: UIViewController {
 
     override func viewDidLoad() {
