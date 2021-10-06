@@ -42,7 +42,7 @@
                     </view>
                     <connections>
                         <outlet property="animalImageView" destination="wXA-TC-edj" id="tsa-Kg-K9l"/>
-                        <outlet property="nameImageView" destination="7iw-6T-XnZ" id="YQb-57-giE"/>
+                        <outlet property="nameLabel" destination="7iw-6T-XnZ" id="YQb-57-giE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
