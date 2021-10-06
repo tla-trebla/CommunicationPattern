@@ -15,11 +15,14 @@ class AnimalViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    // MARK: - Actions
+    
     @IBAction func catButtonClicked(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
     }
     
     @IBAction func dogButtonClicked(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
     }
 
 }
