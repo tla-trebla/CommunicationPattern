@@ -13,7 +13,7 @@
 		5E282FC5270D8D6A006C32BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E282FC3270D8D6A006C32BD /* Main.storyboard */; };
 		5E282FC7270D8D6B006C32BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E282FC6270D8D6B006C32BD /* Assets.xcassets */; };
 		5E282FCA270D8D6B006C32BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E282FC8270D8D6B006C32BD /* LaunchScreen.storyboard */; };
-		5E282FD2270D947B006C32BD /* AnimalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E282FD1270D947B006C32BD /* AnimalViewController.swift */; };
+		5E282FD4270D94DA006C32BD /* AnimalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E282FD3270D94DA006C32BD /* AnimalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		5E282FC6270D8D6B006C32BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E282FC9270D8D6B006C32BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E282FCB270D8D6B006C32BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5E282FD1270D947B006C32BD /* AnimalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalViewController.swift; sourceTree = "<group>"; };
+		5E282FD3270D94DA006C32BD /* AnimalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +61,7 @@
 				5E282FBD270D8D6A006C32BD /* AppDelegate.swift */,
 				5E282FBF270D8D6A006C32BD /* SceneDelegate.swift */,
 				5E282FC1270D8D6A006C32BD /* BaseViewController.swift */,
-				5E282FD1270D947B006C32BD /* AnimalViewController.swift */,
+				5E282FD3270D94DA006C32BD /* AnimalViewController.swift */,
 				5E282FC3270D8D6A006C32BD /* Main.storyboard */,
 				5E282FC6270D8D6B006C32BD /* Assets.xcassets */,
 				5E282FC8270D8D6B006C32BD /* LaunchScreen.storyboard */,
@@ -143,7 +143,7 @@
 			files = (
 				5E282FC2270D8D6A006C32BD /* BaseViewController.swift in Sources */,
 				5E282FBE270D8D6A006C32BD /* AppDelegate.swift in Sources */,
-				5E282FD2270D947B006C32BD /* AnimalViewController.swift in Sources */,
+				5E282FD4270D94DA006C32BD /* AnimalViewController.swift in Sources */,
 				5E282FC0270D8D6A006C32BD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
