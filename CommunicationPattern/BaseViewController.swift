@@ -16,18 +16,16 @@ class BaseViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 
     // MARK: - Actions
     
     @IBAction func selectAnimalButtonClicked(_ sender: Any) {
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let animalVC = storyboard.instantiateViewController(withIdentifier: "AnimalViewController")
+        let animalVC = storyboard?.instantiateViewController(withIdentifier: "AnimalViewController") as! AnimalViewController
         
         animalVC.modalPresentationStyle = .fullScreen
         
-        show(animalVC, sender: self)
+        present(animalVC, animated: true, completion: nil)
     }
     
 }
