@@ -24,9 +24,9 @@ class BaseViewController: UIViewController {
         let animalVC = storyboard?.instantiateViewController(withIdentifier: "AnimalViewController") as! AnimalViewController
         
         animalVC.modalPresentationStyle = .fullScreen
+        animalVC.selectionDelegate = self
         
         present(animalVC, animated: true, completion: nil)
     }
     
 }
-
