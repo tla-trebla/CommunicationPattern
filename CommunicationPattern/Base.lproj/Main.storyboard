@@ -49,10 +49,10 @@
             </objects>
             <point key="canvasLocation" x="30" y="69"/>
         </scene>
-        <!--View Controller-->
+        <!--Animal View Controller-->
         <scene sceneID="zon-x7-5Ba">
             <objects>
-                <viewController id="hda-Pp-5VF" sceneMemberID="viewController">
+                <viewController id="hda-Pp-5VF" customClass="AnimalViewController" customModule="CommunicationPattern" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="g42-ts-I1n">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
