@@ -30,3 +30,14 @@ class BaseViewController: UIViewController {
     }
     
 }
+
+// MARK: - Delegates
+
+extension BaseViewController: AnimalSelectionDelegate {
+    
+    func didTapAnimalSelection(image: UIImage, name: String, color: UIColor) {
+        animalImageView.image = image
+        nameLabel.text = name
+        self.view.backgroundColor = color
+    }
+}
