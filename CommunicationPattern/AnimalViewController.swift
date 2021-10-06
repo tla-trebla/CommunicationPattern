@@ -23,10 +23,12 @@ class AnimalViewController: UIViewController {
     // MARK: - Actions
     
     @IBAction func catButtonClicked(_ sender: Any) {
+        selectionDelegate.didTapAnimalSelection(image: UIImage(named: "cat")!, name: "Cat Person", color: .lightGray)
         dismiss(animated: true, completion: nil)
     }
     
     @IBAction func dogButtonClicked(_ sender: Any) {
+        selectionDelegate.didTapAnimalSelection(image: UIImage(named: "dog")!, name: "Dog Person", color: .cyan)
         dismiss(animated: true, completion: nil)
     }
 
