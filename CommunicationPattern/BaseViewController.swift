@@ -31,19 +31,28 @@ class BaseViewController: UIViewController {
     
     func createObservers() {
         
+        // Cat
+        NotificationCenter.default.addObserver(self, selector: #selector(changeImageView(notification:)), name: catNotification, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(changeLabel(notification:)), name: catNotification, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(changeBackgroundColor(notification:)), name: catNotification, object: nil)
+        
+        // Dog
+        NotificationCenter.default.addObserver(self, selector: #selector(changeImageView(notification:)), name: dogNotification, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(changeLabel(notification:)), name: dogNotification, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(changeBackgroundColor(notification:)), name: dogNotification, object: nil)
     }
     
     // MARK: - Notification's Implementation
     
-    func changeImageView(notification: NSNotification) {
+    @objc func changeImageView(notification: NSNotification) {
         
     }
     
-    func changeLabel(notification: NSNotification) {
+    @objc func changeLabel(notification: NSNotification) {
         
     }
     
-    func changeBackgroundColor(notification: NSNotification) {
+    @objc func changeBackgroundColor(notification: NSNotification) {
         
     }
 
