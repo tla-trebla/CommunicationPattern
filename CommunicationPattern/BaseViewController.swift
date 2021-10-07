@@ -7,6 +7,9 @@
 
 import UIKit
 
+let catNotificationKey = "com.tla-trebla.cat"
+let dogNotificationKey = "com.tla-trebla.dog"
+
 class BaseViewController: UIViewController {
 
     // MARK: - Outlets
