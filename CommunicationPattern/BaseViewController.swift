@@ -45,15 +45,21 @@ class BaseViewController: UIViewController {
     // MARK: - Notification's Implementation
     
     @objc func changeImageView(notification: NSNotification) {
-        
+        let isCat = notification.name == catNotification
+        let image = isCat ? UIImage(named: "cat") : UIImage(named: "dog")
+        animalImageView.image = image
     }
     
     @objc func changeLabel(notification: NSNotification) {
-        
+        let isCat = notification.name == catNotification
+        let text = isCat ? "Cat Person" : "Dog Person"
+        nameLabel.text = text
     }
     
     @objc func changeBackgroundColor(notification: NSNotification) {
-        
+        let isCat = notification.name == catNotification
+        let backgroundColor : UIColor = isCat ? .gray : .cyan
+        view.backgroundColor = backgroundColor
     }
 
     // MARK: - Actions
