@@ -17,6 +17,11 @@ class BaseViewController: UIViewController {
     @IBOutlet weak var animalImageView: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
     
+    // MARK: - Variables
+    
+    let catNotification = NSNotification.Name(catNotificationKey)
+    let dogNotification = NSNotification.Name(dogNotificationKey)
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
