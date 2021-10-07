@@ -19,7 +19,27 @@ class BaseViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+    }
+    
+    // MARK: - Notifications
+    
+    func createObservers() {
+        
+    }
+    
+    // MARK: - Notification's Implementation
+    
+    func changeImageView() {
+        
+    }
+    
+    func changeLabel() {
+        
+    }
+    
+    func changeBackgroundColor() {
+        
     }
 
     // MARK: - Actions
