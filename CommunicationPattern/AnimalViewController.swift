@@ -18,9 +18,11 @@ class AnimalViewController: UIViewController {
     // MARK: - Actions
     
     @IBAction func catButtonClicked(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
     }
     
     @IBAction func dogButtonClicked(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
     }
     
 }
