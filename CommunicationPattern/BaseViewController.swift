@@ -30,15 +30,15 @@ class BaseViewController: UIViewController {
     
     // MARK: - Notification's Implementation
     
-    func changeImageView() {
+    func changeImageView(notification: NSNotification) {
         
     }
     
-    func changeLabel() {
+    func changeLabel(notification: NSNotification) {
         
     }
     
-    func changeBackgroundColor() {
+    func changeBackgroundColor(notification: NSNotification) {
         
     }
 
